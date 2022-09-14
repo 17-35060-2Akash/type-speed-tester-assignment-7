@@ -37,7 +37,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: white;
   font-size: 32px;
   background-color: #171717;
@@ -183,10 +184,21 @@ button {
   top: 0;
 }
 
+#question {
+  font-size: 2vw;
+  padding: 10px 15px 10px 30px;
+}
+
+#display {
+  font-size: 2vw;
+}
+
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
     width: 100%;
+    /* font-size: .01vw; */
   }
 
   .card {
@@ -199,6 +211,16 @@ button {
 
   .card p {
     margin-bottom: 10px;
+  }
+
+  #question {
+    font-size: 4vw;
+  }
+
+  #display {
+    font-size: 3vw;
+    padding: 10px;
+    /* padding-bottom: 30px; */
   }
 
   /* #histories {
@@ -228,6 +250,10 @@ button {
     margin: 0 5px 0 5px;
   }
 
+  /* #display {
+    padding: 20px;
+  } */
+
 }
 
 @media screen and (min-width:993px) {
@@ -251,6 +277,15 @@ button {
 
   .card p {
     text-align: center;
+  }
+
+  #question {
+    height: 130px;
+  }
+
+  #display {
+    height: 130px;
+
   }
 }
 
