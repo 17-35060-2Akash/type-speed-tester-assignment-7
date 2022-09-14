@@ -147,11 +147,11 @@ button {
   cursor: pointer;
 }
 
-#histories {
+/* #histories {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} */
 
 .card {
   width: 100%;
@@ -191,5 +191,65 @@ button {
 
   .card {
     flex-direction: column;
+  }
+
+  .card h3 {
+    margin: 10px 0 10px 0;
+  }
+
+  .card p {
+    margin-bottom: 10px;
+  }
+
+  /* #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } */
+}
+
+@media screen and (min-width:701px) and (max-width:992px) {
+
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .card h3 {
+    margin: 0 18px 0 18px;
+  }
+
+  .card p {
+    margin: 0 5px 0 5px;
+  }
+
+}
+
+@media screen and (min-width:993px) {
+
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+
+  .card h3 {
+    text-align: center;
+  }
+
+  .card p {
+    text-align: center;
   }
 }
