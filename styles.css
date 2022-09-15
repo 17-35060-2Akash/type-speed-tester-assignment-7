@@ -218,9 +218,17 @@ button {
   }
 
   #display {
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 10px;
     /* padding-bottom: 30px; */
+  }
+
+  #result {
+    width: 90%;
+  }
+
+  #result button {
+    width: 90%;
   }
 
   /* #histories {
@@ -293,5 +301,5 @@ button {
 /* for blog */
 
 /* .accordion-button {
-  font-size: 30px;
+  font-size: 2vw;
 } */
