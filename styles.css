@@ -258,9 +258,10 @@ button {
     margin: 0 5px 0 5px;
   }
 
-  /* #display {
+  #display {
     padding: 20px;
-  } */
+
+  }
 
 }
 
@@ -293,6 +294,7 @@ button {
 
   #display {
     height: 130px;
+    padding: 20px;
 
   }
 }
